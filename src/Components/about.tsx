@@ -1,4 +1,5 @@
 //Dependencies
+import React from "react";
 import "../App.css";
 
 //About Page

@@ -56,7 +56,6 @@ export default function Create() {
                     <input
                         type="text"
                         className="form-control"
-                        value={form.title}
                         onChange={(e) => updateForm({ title: e.target.value })}
                     />
                 </div>
@@ -65,7 +64,6 @@ export default function Create() {
                     <input
                         type="text"
                         className="form-control"
-                        value = {form.text}
                         onChange={(e) => updateForm({ text: e.target.value})}
                     />
                 </div>
